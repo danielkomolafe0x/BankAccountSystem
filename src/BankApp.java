@@ -9,13 +9,6 @@ public class BankApp {
     public static void main(String[] args) {
         System.out.println(" Welcome to SimpleBank ");
 
-        Manager manager = new Manager("1");
-        manager.setRole("I am a manager");
-        System.out.println("manager = " + manager.getRole());
-
-        MyBird chicken = new Chicken();
-        System.out.println("chicken = " + chicken.move());
-
         System.out.print("Enter your account name: ");
         String accountName = inputHandler.readNonEmptyString();
 
